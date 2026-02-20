@@ -1,46 +1,47 @@
-# Panduan Belajar HTML5 🚀
+# Panduan Belajar HTML5 untuk Pemula 🚀
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Selamat datang! Jika kamu belum pernah menulis kode (ngoding) sama sekali, kamu berada di tempat yang tepat. Repository ini dibuat khusus untuk membantumu belajar membuat website dari nol dengan cara yang sangat simpel.
 
-Repository ini adalah panduan lengkap dan terstruktur untuk mempelajari HTML5, mulai dari dasar hingga fitur multimedia canggih. Didesain agar mudah dipahami oleh pemula dengan contoh visual yang modern.
+## 🤖 Apa itu HTML? (Analogi Sederhana)
 
-## 📚 Kurikulum Pembelajaran
+Bayangkan kita sedang membangun sebuah **Rumah** atau **Tubuh Manusia**:
 
-Materi dibagi menjadi modul-modul berikut:
-
-1.  **[01-Pengenalan](./01-Pengenalan)**
-    - Memahami struktur dasar dokumen HTML5 dan tag-tag esensial.
-2.  **[02-Teks-dan-format](./02-Teks-dan-format)**
-    - Mengatur teks dengan heading, paragraf, dan pemformatan teks (bold, italic, mark, dll).
-3.  **[03-Tautan-dan-gambar](./03-Tautan-dan-gambar)**
-    - Membuat navigasi antar halaman (hyperlinks) dan menyisipkan gambar secara responsif.
-4.  **[04-Tabel-dan-form](./04-Tabel-dan-form)**
-    - Menyusun data dalam tabel dan membuat formulir interaktif untuk input pengguna.
-5.  **[05-Elemen-semantik](./05-Elemen-semantik)**
-    - Menggunakan tag semantik (`header`, `main`, `footer`, dll) untuk SEO dan aksesibilitas yang lebih baik.
-6.  **[06-Multimedia](./06-Multimedia)**
-    - Memasukkan audio, video, dan konten eksternal (YouTube) secara native.
-
-## ✨ Keunggulan Repository Ini
-
-- **Desain Modern**: Menggunakan sistem desain yang bersih dan profesional.
-- **Praktis**: Setiap modul dilengkapi dengan file `index.html` yang bisa langsung dijalankan.
-- **Dokumentasi Jelas**: File `README.md` di setiap modul menjelaskan teori di balik kode.
-- **Navigasi Mudah**: Tautan antar modul di bagian bawah setiap halaman.
-
-## 🚀 Cara Menggunakan
-
-1.  **Clone repository:**
-    ```bash
-    git clone https://github.com/afhwan/HTML5.git
-    ```
-2.  **Mulai Belajar:** Buka folder `01-Pengenalan` dan jalankan `index.html` di browser Anda.
-3.  **Ikuti Alurnya:** Gunakan navigasi di bagian bawah halaman untuk lanjut ke modul berikutnya.
-
-## 🤝 Kontribusi
-
-Saran dan perbaikan sangat kami hargai! Silakan baca [CONTRIBUTING.md](./CONTRIBUTING.md) untuk detail lebih lanjut.
+- **HTML** adalah **Kerangka/Skeletal**. Ia menentukan di mana letak pintu, jendela, atau di mana posisi tangan dan kaki. Tanpa HTML, tidak ada struktur.
+- **CSS** (yang akan pelajari nanti) adalah **Cat Rumah** atau **Pakaian**. Ia yang mempercantik tampilan.
+- **JavaScript** adalah **Sistem Listrik** atau **Otot**. Ia yang membuat rumah bisa menyalakan lampu atau tubuh bisa bergerak.
 
 ---
 
-_Dibuat untuk membantu siapa saja belajar web development dengan cara yang menyenangkan._
+## 📚 Apa yang Akan Kamu Pelajari?
+
+Kita akan belajar selangkah demi selangkah melalui modul-modul berikut:
+
+1.  **[01-Pengenalan (Si Tulang Punggung)](./01-Pengenalan)**
+    - Belajar struktur paling dasar. Ibarat belajar cara berdiri sebelum berlari.
+2.  **[02-Teks dan Format (Bercerita)](./02-Teks-dan-format)**
+    - Bagaimana cara menulis judul, paragraf, dan menebalkan kata-kata penting.
+3.  **[03-Tautan dan Gambar (Menghubungkan Dunia)](./03-Tautan-dan-gambar)**
+    - Membuat link untuk pindah halaman dan memasang gambar keren.
+4.  **[04-Tabel dan Form (Interaksi)](./04-Tabel-dan-form)**
+    - Membuat daftar data dan formulir (seperti halaman login atau daftar).
+5.  **[05-Elemen Semantik (Memberi Makna)](./05-Elemen-semantik)**
+    - Memberi tahu Google mana bagian "Kepala", "Isi", dan "Kaki" website kita.
+6.  **[06-Multimedia (Hiburan)](./06-Multimedia)**
+    - Menaruh video dan lagu langsung di website!
+
+---
+
+## ✨ Kenapa Belajar di Sini?
+
+- **Bahasa Manusia**: Tidak ada istilah teknis yang ribet tanpa penjelasan.
+- **Langsung Praktek**: Setiap folder punya contoh yang bisa langsung kamu buka.
+- **Visual Modern**: Tampilannya bersih dan tidak membosankan.
+
+## 🚀 Cara Mulai (Hanya 2 Langkah!)
+
+1.  **Download project ini** (atau copy folder-foldernya).
+2.  Masuk ke folder `01-Pengenalan`, lalu klik kanan file `index.html` dan pilih **Open with Browser** (Chrome/Edge/Firefox).
+
+---
+
+_Semangat ya! Ngoding itu seperti main LEGO, kita menyusun blok demi blok sampai jadi sesuatu yang hebat._ 🧱✨

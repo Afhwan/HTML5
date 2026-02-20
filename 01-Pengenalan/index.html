@@ -3,38 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>01 - Pengenalan HTML5</title>
+    <title>01 - Pengenalan HTML5 (Dasar Banget!)</title>
     <link rel="stylesheet" href="../assets/style.css">
+    <!-- 
+        GURU: Bagian <head> ini ibarat 'Otak' website. 
+        Isinya info penting, tapi tidak terlihat langsung oleh pengunjung.
+    -->
 </head>
 <body>
     <div class="container">
-        <h1>Pengenalan HTML5</h1>
-        <p>HTML (HyperText Markup Language) adalah bahasa standar yang digunakan untuk membuat struktur halaman web. Versi terbaru saat ini adalah <strong>HTML5</strong>.</p>
+        <h1>Halo Calon Developer! 👋</h1>
+        <p>HTML (HyperText Markup Language) adalah bahasa untuk membuat <strong>kerangka</strong> website. Kalau website itu manusia, HTML adalah <strong>tulangnya</strong>.</p>
         
-        <h2>Struktur Dasar Dokumen HTML</h2>
-        <p>Setiap file HTML memiliki struktur dasar sebagai berikut:</p>
-        <pre>&lt;!DOCTYPE html&gt;
-&lt;html lang="id"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;Judul Halaman&lt;/title&gt;
+        <div style="background: #e3f2fd; padding: 15px; border-left: 5px solid #2196f3; margin: 20px 0;">
+            <strong>💡 Ingat Ini:</strong> HTML bukan bahasa pemrograman yang ribet, tapi bahasa "penanda" (markup). Kita hanya memberi tahu browser: "Ini judul", "Ini paragraf", atau "Ini gambar".
+        </div>
+
+        <h2>Struktur Tubuh Website</h2>
+        <p>Setiap file website selalu punya bagian-bagian ini:</p>
+        
+        <pre>&lt;!DOCTYPE html&gt; &lt;!-- Bilang ke browser kalau ini HTML5 --&gt;
+&lt;html lang="id"&gt;   &lt;!-- Awal dari semua kode --&gt;
+&lt;head&gt;            &lt;!-- 'Otak': Judul dan info rahasia --&gt;
+    &lt;title&gt;Judul&lt;/title&gt;
 &lt;/head&gt;
-&lt;body&gt;
-    &lt;!-- Konten di sini --&gt;
+&lt;body&gt;            &lt;!-- 'Tubuh': Semua yang muncul di layar --&gt;
+    &lt;!-- Konten kamu di sini! --&gt;
 &lt;/body&gt;
 &lt;/html&gt;</pre>
 
+        <h3>Apa Saja Isinya?</h3>
         <ul>
-            <li><code>&lt;!DOCTYPE html&gt;</code>: Mendeklarasikan bahwa dokumen ini menggunakan HTML5.</li>
-            <li><code>&lt;html&gt;</code>: Elemen akar (root) dari halaman.</li>
-            <li><code>&lt;head&gt;</code>: Berisi informasi meta tentang dokumen (tidak terlihat oleh pengunjung).</li>
-            <li><code>&lt;body&gt;</code>: Berisi semua konten yang terlihat oleh pengunjung.</li>
+            <li><strong>DOCTYPE:</strong> Seperti bilang "Halo, saya pakai bahasa terbaru!".</li>
+            <li><strong>&lt;html&gt;:</strong> Pembungkus semua kode kamu.</li>
+            <li><strong>&lt;head&gt; (Otak):</strong> Tempat menaruh judul tab browser dan file desain.</li>
+            <li><strong>&lt;body&gt; (Tubuh):</strong> Di sinilah keajaiban terjadi! Semua teks, gambar, dan tombol ditaruh di sini.</li>
         </ul>
 
         <div class="nav-links">
             <span></span>
-            <a href="../02-Teks-dan-format/index.html">Selanjutnya: Teks dan Format &rarr;</a>
+            <a href="../02-Teks-dan-format/index.html">Siap lanjut? Yuk ke modul Teks! &rarr;</a>
         </div>
     </div>
+
+    <!-- 
+        GURU: Perhatikan bagaimana setiap tag punya pembuka <tag> dan penutup </tag>. 
+        Ibarat kotak, harus ada tutupnya supaya isinya tidak tumpah!
+    -->
 </body>
 </html>
