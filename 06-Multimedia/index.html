@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06 - Multimedia HTML5</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multimedia dalam HTML5</h1>
+        <p>HTML5 memudahkan integrasi audio, video, dan konten eksternal tanpa memerlukan plugin tambahan.</p>
+        
+        <h2>Audio</h2>
+        <p>Gunakan tag <code>&lt;audio&gt;</code> dengan atribut <code>controls</code>.</p>
+        <audio controls style="width: 100%;">
+            <source src="horse.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung elemen audio.
+        </audio>
+        <small>(Catatan: File audio harus tersedia di server Anda)</small>
+
+        <h2>Video</h2>
+        <p>Gunakan tag <code>&lt;video&gt;</code>.</p>
+        <video width="100%" controls style="border-radius: 8px;">
+            <source src="movie.mp4" type="video/mp4">
+            Browser Anda tidak mendukung elemen video.
+        </video>
+
+        <h2>Konten Eksternal (Iframe)</h2>
+        <p>Gunakan <code>&lt;iframe&gt;</code> untuk menyisipkan halaman lain, seperti video dari YouTube.</p>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px;"></iframe>
+
+        <div class="nav-links">
+            <a href="../05-Elemen-semantik/index.html">&larr; Sebelumnya: Elemen Semantik</a>
+            <a href="../README.md">Kembali ke Beranda</a>
+        </div>
+    </div>
+</body>
+</html>

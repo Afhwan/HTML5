@@ -1,45 +1,46 @@
-# Panduan Belajar HTML5
+# Panduan Belajar HTML5 🚀
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Repository ini berisi materi pembelajaran HTML5 yang disusun secara bertahap, mulai dari pengenalan dasar hingga elemen-elemen canggih. Cocok bagi pemula yang ingin memahami struktur dasar web dengan cara yang praktis.
+Repository ini adalah panduan lengkap dan terstruktur untuk mempelajari HTML5, mulai dari dasar hingga fitur multimedia canggih. Didesain agar mudah dipahami oleh pemula dengan contoh visual yang modern.
 
-## 📚 Daftar Isi
+## 📚 Kurikulum Pembelajaran
 
-Proyek ini terbagi menjadi beberapa modul utama:
+Materi dibagi menjadi modul-modul berikut:
 
 1.  **[01-Pengenalan](./01-Pengenalan)**
-    - Dasar-dasar HTML5 dan sejarah singkat.
-    - Struktur dokumen HTML.
+    - Memahami struktur dasar dokumen HTML5 dan tag-tag esensial.
 2.  **[02-Teks-dan-format](./02-Teks-dan-format)**
-    - Pengaturan teks, heading, paragraf, dan pemformatan teks.
+    - Mengatur teks dengan heading, paragraf, dan pemformatan teks (bold, italic, mark, dll).
 3.  **[03-Tautan-dan-gambar](./03-Tautan-dan-gambar)**
-    - Cara membuat hyperlink dan menampilkan gambar.
+    - Membuat navigasi antar halaman (hyperlinks) dan menyisipkan gambar secara responsif.
 4.  **[04-Tabel-dan-form](./04-Tabel-dan-form)**
-    - Pembuatan tabel data dan formulir interaktif.
+    - Menyusun data dalam tabel dan membuat formulir interaktif untuk input pengguna.
 5.  **[05-Elemen-semantik](./05-Elemen-semantik)**
-    - Penggunaan tag semantik untuk SEO dan aksesibilitas.
+    - Menggunakan tag semantik (`header`, `main`, `footer`, dll) untuk SEO dan aksesibilitas yang lebih baik.
 6.  **[06-Multimedia](./06-Multimedia)**
-    - Integrasi audio dan video secara native.
+    - Memasukkan audio, video, dan konten eksternal (YouTube) secara native.
+
+## ✨ Keunggulan Repository Ini
+
+- **Desain Modern**: Menggunakan sistem desain yang bersih dan profesional.
+- **Praktis**: Setiap modul dilengkapi dengan file `index.html` yang bisa langsung dijalankan.
+- **Dokumentasi Jelas**: File `README.md` di setiap modul menjelaskan teori di balik kode.
+- **Navigasi Mudah**: Tautan antar modul di bagian bawah setiap halaman.
 
 ## 🚀 Cara Menggunakan
 
-1.  **Clone repository ini:**
+1.  **Clone repository:**
     ```bash
-    git clone https://github.com/username/HTML5.git
+    git clone https://github.com/afhwan/HTML5.git
     ```
-2.  **Eksplorasi Modul:** Buka folder modul yang ingin dipelajari.
-3.  **Buka di Browser:** Jalankan file `index.html` di browser pilihan Anda.
-4.  **Pelajari Teori:** Baca file `.md` di setiap folder untuk penjelasan teori tambahan.
+2.  **Mulai Belajar:** Buka folder `01-Pengenalan` dan jalankan `index.html` di browser Anda.
+3.  **Ikuti Alurnya:** Gunakan navigasi di bagian bawah halaman untuk lanjut ke modul berikutnya.
 
 ## 🤝 Kontribusi
 
-Kontribusi sangat terbuka! Jika Anda memiliki saran atau perbaikan, silakan baca [CONTRIBUTING.md](./CONTRIBUTING.md) atau buka _Pull Request_.
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](./LICENSE).
+Saran dan perbaikan sangat kami hargai! Silakan baca [CONTRIBUTING.md](./CONTRIBUTING.md) untuk detail lebih lanjut.
 
 ---
 
-_Dibuat dengan ❤️ untuk komunitas belajar web development._
+_Dibuat untuk membantu siapa saja belajar web development dengan cara yang menyenangkan._

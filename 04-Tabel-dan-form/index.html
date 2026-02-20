@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04 - Tabel dan Form HTML</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tabel dan Form</h1>
+        
+        <h2>Tabel</h2>
+        <p>Gunakan tag <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code> (baris), <code>&lt;th&gt;</code> (header), dan <code>&lt;td&gt;</code> (data).</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Budi Santoso</td>
+                    <td>budi@example.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Siti Aminah</td>
+                    <td>siti@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Formulir (Form)</h2>
+        <p>Gunakan tag <code>&lt;form&gt;</code> untuk membungkus elemen input.</p>
+        <form action="#" method="post">
+            <div>
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama..." required style="width: 100%;">
+            </div>
+            <div>
+                <label for="email">Alamat Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="contoh@gmail.com" required style="width: 100%;">
+            </div>
+            <div>
+                <label for="pesan">Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="4" style="width: 100%;"></textarea>
+            </div>
+            <div>
+                <p>Hobi:</p>
+                <input type="checkbox" id="hobi1" name="hobi" value="Coding"> <label for="hobi1">Coding</label>
+                <input type="checkbox" id="hobi2" name="hobi" value="Gaming"> <label for="hobi2">Gaming</label>
+            </div>
+            <button type="submit">Kirim Data</button>
+        </form>
+
+        <div class="nav-links">
+            <a href="../03-Tautan-dan-gambar/index.html">&larr; Sebelumnya: Tautan dan Gambar</a>
+            <a href="../05-Elemen-semantik/index.html">Selanjutnya: Elemen Semantik &rarr;</a>
+        </div>
+    </div>
+</body>
+</html>

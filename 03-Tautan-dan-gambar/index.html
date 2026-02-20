@@ -1,35 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tautan dan gambar</title>
+    <title>03 - Tautan dan Gambar</title>
+    <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-    <a href="url"> ini adalah teks yang dapat diklik, menggunakan tag  a href</a>
-    <!--ada juga atribut target dan rel yang berfungsi untuk menentukan tujuan tautan-->
-    <a href="https://www.example.com" target="_blank" rel="noopener">Buka di tab baru</a>
+    <div class="container">
+        <h1>Tautan dan Gambar</h1>
+        
+        <h2>Link (Hyperlink)</h2>
+        <p>Gunakan tag <code>&lt;a&gt;</code> dengan atribut <code>href</code> untuk membuat tautan.</p>
+        <p>Contoh: <a href="https://www.google.com" target="_blank">Kunjungi Google (Tab Baru)</a></p>
+        <pre>&lt;a href="https://www.google.com" target="_blank"&gt;Kunjungi Google&lt;/a&gt;</pre>
 
-    <a href="https://www.google.com">Kunjungi Google</a>
-    <a href="tentang.html">Tentang Kami</a>
-    <a href="#bagian-bawah">Lompat ke Bawah</a>
-    <!--href (hypertext reference) menentukan tujuan tautan, bisa berupa URL absolut, relatif, atau anchor dalam halaman yang sama.-->
-    
+        <h2>Gambar (Images)</h2>
+        <p>Gunakan tag <code>&lt;img&gt;</code> dengan atribut <code>src</code> (sumber) dan <code>alt</code> (teks alternatif).</p>
+        <img src="https://via.placeholder.com/600x300" alt="Contoh Gambar" style="width: 100%; border-radius: 8px;">
+        <pre>&lt;img src="path/ke/gambar.jpg" alt="Deskripsi gambar"&gt;</pre>
 
-    <!--Kita bisa membuat tautan yang melompat ke bagian tertentu dalam halaman yang sama dengan memanfaatkan atribut id-->
-    <!-- Bagian tujuan -->
-    <h2 id="kontak">Hubungi Kami</h2>
+        <h2>Navigasi Internal</h2>
+        <p>Anda bisa menggunakan ID untuk membuat tautan ke bagian tertentu di halaman yang sama.</p>
+        <a href="#bagian-bawah">Lompat ke bagian bawah</a>
 
-    <!-- Tautan menuju bagian tersebut -->
-    <a href="#kontak">Ke bagian kontak</a>
+        <div style="height: 500px;"></div>
 
+        <h2 id="bagian-bawah">Bagian Bawah</h2>
+        <p>Ini adalah tujuan dari lompatan internal.</p>
 
-    <h1>GAMBAR</h1>
-    <!--Gambar ditambahkan menggunakan elemen <img>. Elemen ini bersifat self-closing (tidak perlu tag penutup).-->
-    <img src="url" alt="deskripsi gambar">
-    <!--    
-    src (source) menentukan lokasi file gambar.
-    alt (alternative text) memberikan deskripsi teks jika gambar gagal dimuat atau untuk pembaca layar (aksesibilitas).-->
-    <img src="foto.jpg" alt="Foto pemandangan gunung">
+        <div class="nav-links">
+            <a href="../02-Teks-dan-format/index.html">&larr; Sebelumnya: Teks dan Format</a>
+            <a href="../04-Tabel-dan-form/index.html">Selanjutnya: Tabel dan Form &rarr;</a>
+        </div>
+    </div>
 </body>
 </html>
